@@ -1,0 +1,140 @@
+<testsuite failures="0" name="kanbanboard/bucket/bucket-create.feature" skipped="0" tests="6" time="5.062056">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Create a Bucket with valid data" time="1.015575">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008551">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008597">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008338">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008884">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="0.012111">
+    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
+* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

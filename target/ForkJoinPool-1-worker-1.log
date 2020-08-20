@@ -1,0 +1,39 @@
+21:53:58.110 karate.env system property was:  
+21:53:59.181 request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c9c4e54e-e713-427a-9c17-f30860b1491a","position":632.0,"name":"Title - 411"}
+
+21:53:59.232 response time in milliseconds: 50,51
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+
+21:50:42.033 karate.env system property was:  
+21:50:42.040 request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1788ec1b-6968-4feb-9451-18685005df3c","position":825.0,"name":"      "}
+
+21:50:42.052 response time in milliseconds: 10,68
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:42.049+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+

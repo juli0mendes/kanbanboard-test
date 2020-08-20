@@ -1,0 +1,1581 @@
+11:11:47.984 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:49.657 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"9c459946-bfbc-455a-ab71-b68ab169721d","position":729.0,"name":"Title - 284"}
+
+11:11:49.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 283,99
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:11:49.963 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:49.982 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":277.0,"name":"Title - 851"}
+
+11:11:50.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 119,95
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:11:50.079+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:11:50.118 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:50.124 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1c488f5e-ed4b-460c-9c6f-a67c05d04ca5","position":0,"name":"Title - 163"}
+
+11:11:50.133 [main] DEBUG com.intuit.karate - response time in milliseconds: 8,59
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:11:50.131+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:11:50.145 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:50.151 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"524d7749-d987-410d-a8e9-778e1d194d41","position":-1,"name":"Title - 427"}
+
+11:11:50.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,56
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:11:50.157+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:11:50.169 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:50.175 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"bc031234-4a8b-4d26-9d7b-460558c3f286","position":600.0,"name":""}
+
+11:11:50.181 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,84
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:11:50.180+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:11:50.190 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:11:50.198 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"576980b5-2538-460b-b056-00821700324a","position":911.0,"name":"      "}
+
+11:11:50.209 [main] DEBUG com.intuit.karate - response time in milliseconds: 10,07
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:11:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:11:50.207+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:16.170 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.373 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c814e360-bd40-417d-93ef-9e42f8fc4885","position":78.0,"name":"Title - 263"}
+
+11:13:18.414 [main] DEBUG com.intuit.karate - response time in milliseconds: 39,62
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:13:18.428 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.431 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":260.0,"name":"Title - 897"}
+
+11:13:18.438 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,49
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:18.436+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:18.439 [main] ERROR com.intuit.karate - status code was: 400, expected: 404, response time: 6, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.436+00:00","status":400}
+11:13:18.550 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.554 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"ff455c47-a986-45bf-8085-59bc483400e0","position":0,"name":"Title - 678"}
+
+11:13:18.560 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,33
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:18.559+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:18.561 [main] ERROR com.intuit.karate - status code was: 400, expected: 404, response time: 5, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.559+00:00","status":400}
+11:13:18.598 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.602 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"894874d7-7d95-4a7c-b9d8-ee79c4188292","position":-1,"name":"Title - 224"}
+
+11:13:18.607 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,82
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:18.606+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:18.608 [main] ERROR com.intuit.karate - status code was: 400, expected: 404, response time: 5, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.606+00:00","status":400}
+11:13:18.648 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.653 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 71
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"14500292-5b09-409d-8e86-9687116761c2","position":10.0,"name":""}
+
+11:13:18.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,40
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:18.657+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:18.660 [main] ERROR com.intuit.karate - status code was: 400, expected: 404, response time: 5, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.657+00:00","status":400}
+11:13:18.722 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:18.735 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1313c2b8-1768-4905-8833-8331584b8fe5","position":557.0,"name":"      "}
+
+11:13:18.742 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,82
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:18.740+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:18.744 [main] ERROR com.intuit.karate - status code was: 400, expected: 404, response time: 6, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.740+00:00","status":400}
+11:13:52.966 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.100 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f0dee499-0ed8-4ba9-9aee-54a19b9b1312","position":718.0,"name":"Title - 277"}
+
+11:13:55.139 [main] DEBUG com.intuit.karate - response time in milliseconds: 38,01
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:13:55.152 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.155 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":214.0,"name":"Title - 999"}
+
+11:13:55.162 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,31
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:55.159+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:55.169 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.172 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"cc1a96a2-5dc4-4283-81a6-4316b3677056","position":0,"name":"Title - 403"}
+
+11:13:55.177 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,60
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:55.176+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:55.184 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.188 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"356d15a5-b31d-4890-a2b3-69be826b4f67","position":-1,"name":"Title - 927"}
+
+11:13:55.194 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,31
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:55.193+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:55.201 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.204 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"ebdd6e70-eb81-4351-9319-ebebb0544296","position":816.0,"name":""}
+
+11:13:55.212 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,36
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:55.209+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:13:55.220 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:13:55.225 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c67ed32a-d565-463d-887e-f1cdd71d5bf9","position":816.0,"name":"      "}
+
+11:13:55.230 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,50
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:13:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:13:55.229+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:17:33.461 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.377 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"d8093001-2470-4f12-92e5-c17f7a810b02","position":305.0,"name":"Title - 944"}
+
+11:17:35.412 [main] DEBUG com.intuit.karate - response time in milliseconds: 33,98
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:17:35.424 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.427 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":458.0,"name":"Title - 373"}
+
+11:17:35.438 [main] DEBUG com.intuit.karate - response time in milliseconds: 9,16
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:17:35.433+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:17:35.446 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.450 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"8768cfbe-292e-4832-a2e6-798d3dc9959f","position":0,"name":"Title - 681"}
+
+11:17:35.454 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,72
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:17:35.453+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:17:35.461 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.465 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"137db48e-807e-4018-9c8c-4b8049ceb768","position":-1,"name":"Title - 436"}
+
+11:17:35.470 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,20
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:17:35.469+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:17:35.477 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.481 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"aaa23560-49ef-4df6-83c7-22337ebf6738","position":837.0,"name":""}
+
+11:17:35.486 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,31
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:17:35.485+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:17:35.491 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:17:35.495 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"a8059449-1b8c-471e-aa9f-298c8d240503","position":177.0,"name":"      "}
+
+11:17:35.500 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,22
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:17:35 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:17:35.498+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:00.131 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.859 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"4d4b6a76-0e7c-4730-9791-3bdc355bebed","position":832.0,"name":"Title - 485"}
+
+11:23:01.897 [main] DEBUG com.intuit.karate - response time in milliseconds: 36,38
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:23:01.908 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.911 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":280.0,"name":"Title - 95"}
+
+11:23:01.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,04
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:01.915+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:01.923 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.928 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"e02c11ea-33da-4f3c-b397-3a5e45c550c5","position":0,"name":"Title - 202"}
+
+11:23:01.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,40
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:01.931+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:01.939 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.944 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"182f8311-db0a-43b8-b7bd-e9965d103c48","position":-1,"name":"Title - 192"}
+
+11:23:01.949 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,11
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:01.948+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:01.955 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.961 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"de33e0db-8e9e-4ba6-80c8-3de85a098948","position":575.0,"name":""}
+
+11:23:01.967 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,39
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:01.965+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:01.973 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:23:01.978 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"992c1141-5946-4c50-bb66-8968368cd837","position":634.0,"name":"      "}
+
+11:23:01.983 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,86
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:01.982+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:55.544 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:23:55.708 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+11:23:55.707 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+11:23:55.708 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+11:23:55.708 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+11:23:55.708 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+11:23:56.892 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"d7383acf-f6b2-43a3-8f68-3f9d043a97ed","position":-1,"name":"Title - 731"}
+
+11:23:56.892 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 71
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"2b00dff6-335c-4741-8b0e-31a9a5aa1242","position":12.0,"name":""}
+
+11:23:56.892 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":24.0,"name":"Title - 560"}
+
+11:23:56.892 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1b1ad419-562e-4e38-aeef-45faaffdbab7","position":985.0,"name":"Title - 883"}
+
+11:23:56.892 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"6bedb43f-e192-4ebe-a56e-6a9f2ce7bc46","position":0,"name":"Title - 299"}
+
+11:23:56.942 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 47,57
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:56.929+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:56.942 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 47,80
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:56.929+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:56.942 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 48,06
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:56.927+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:56.943 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 48,06
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:56.929+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:56.948 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 55,44
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:23:56.954 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+11:23:56.961 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"0419822e-5659-44ab-9f08-56e2f081fba3","position":494.0,"name":"      "}
+
+11:23:56.967 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 5,78
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:23:56 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:23:56.966+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:23:57.015 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: classpath:kanbanboard/bucket/bucket-create.feature
+11:24:31.223 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.832 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"032ccc52-17e6-4fe1-8d3d-db8df85083dc","position":75.0,"name":"Title - 181"}
+
+11:24:32.863 [main] DEBUG com.intuit.karate - response time in milliseconds: 30,69
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:24:32.875 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.879 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":527.0,"name":"Title - 697"}
+
+11:24:32.886 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,75
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:32.883+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:32.894 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.899 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"8a26b82d-643d-45d5-a2f4-e8968d197fc9","position":0,"name":"Title - 197"}
+
+11:24:32.904 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,69
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:32.903+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:32.911 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.914 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"70c5f050-59bc-44e0-b629-9148c3bb2ad0","position":-1,"name":"Title - 144"}
+
+11:24:32.920 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,29
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:32.918+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:32.925 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.929 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"7a4bc1ba-23c2-4551-8f9a-57439e92809b","position":704.0,"name":""}
+
+11:24:32.933 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,53
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:32.931+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:32.940 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:32.944 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"28fdcd40-fb44-4ea8-9c8b-bd36c914c137","position":95.0,"name":"      "}
+
+11:24:32.948 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,47
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:32 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:32.947+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:46.797 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.487 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c54f1acb-6d32-461b-adfb-1e9b758fd1bc","position":56.0,"name":"Title - 624"}
+
+11:24:48.519 [main] DEBUG com.intuit.karate - response time in milliseconds: 30,84
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:24:48.531 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.535 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":296.0,"name":"Title - 472"}
+
+11:24:48.541 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,00
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:48.538+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:48.546 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.549 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"9a86602d-32ea-4592-a860-10148b953021","position":0,"name":"Title - 404"}
+
+11:24:48.553 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,28
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:48.552+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:48.560 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.563 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"59588d83-552a-478d-a735-394fb4506e9d","position":-1,"name":"Title - 550"}
+
+11:24:48.568 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,10
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:48.567+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:48.574 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.578 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 71
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"0b68d640-897b-46aa-af8f-3d466283bc95","position":22.0,"name":""}
+
+11:24:48.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,42
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:48.581+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:24:48.588 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:24:48.591 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"5cf3709a-f562-4021-9bb0-b8a37be0d75a","position":84.0,"name":"      "}
+
+11:24:48.595 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,53
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:24:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:24:48.594+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:27:17.453 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:27:29.110 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:30.886 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"e24b0a51-92e7-4c59-b158-ce62e9448d1e","position":963.0,"name":"Title - 203"}
+
+11:27:30.921 [main] DEBUG com.intuit.karate - response time in milliseconds: 34,33
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+11:27:30.933 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:30.937 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":878.0,"name":"Title - 808"}
+
+11:27:30.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,39
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:27:30.940+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:27:30.948 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:30.951 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c3e7df19-1818-4eb9-ab43-a37f0efcb700","position":0,"name":"Title - 234"}
+
+11:27:30.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,12
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:27:30.953+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:27:30.964 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:30.969 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"28119731-d06e-4b5a-b92d-4293311ffee8","position":-1,"name":"Title - 212"}
+
+11:27:30.974 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,98
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:27:30.973+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:27:30.983 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:30.997 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"d080b70b-c74d-4df4-b7f9-9af61c28d733","position":807.0,"name":""}
+
+11:27:31.008 [main] DEBUG com.intuit.karate - response time in milliseconds: 9,48
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:27:31.006+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+11:27:31.019 [main] INFO  com.intuit.karate - karate.env system property was:  
+11:27:31.024 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"ef7b0083-d6bc-44d2-a157-912d1e4c1bf9","position":331.0,"name":"      "}
+
+11:27:31.033 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,86
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Wed, 19 Aug 2020 14:27:30 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-19T14:27:31.030+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:08.264 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:50:08.423 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:50:08.423 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+21:50:08.423 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+21:50:08.423 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+21:50:08.423 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+21:50:09.536 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"04663d8f-1798-429f-9994-c69175caa071","position":-1,"name":"Title - 128"}
+
+21:50:09.536 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f6fd2305-5b1a-42ef-8472-371900a9e91d","position":167.0,"name":""}
+
+21:50:09.536 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"581e9570-f1b8-4ae6-95aa-874374bff6d7","position":0,"name":"Title - 735"}
+
+21:50:09.536 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"d0fb37e8-e3b0-44d7-ae05-5b9ee2904e02","position":429.0,"name":"Title - 954"}
+
+21:50:09.536 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":867.0,"name":"Title - 989"}
+
+21:50:13.626 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4090 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:13.626 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4090 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:13.627 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:13.627 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:13.632 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:50:13.636 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f871dd5d-55be-47cd-9670-6927a2ba25ef","position":226.0,"name":"      "}
+
+21:50:13.642 [ForkJoinPool-1-worker-4] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4106 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:13.642 [ForkJoinPool-1-worker-5] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4106 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:13.642 [ForkJoinPool-1-worker-4] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:13.642 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4106 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:13.642 [ForkJoinPool-1-worker-5] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:13.642 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:17.721 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4084 milliseconds for URL: http://localhost:8080/v1/buckets
+21:50:17.721 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:50:17.810 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: classpath:kanbanboard/bucket/bucket-create.feature
+21:50:40.426 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:50:40.569 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+21:50:40.568 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+21:50:40.568 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:50:40.568 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+21:50:40.569 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+21:50:41.652 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 71
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c82ff13f-7e1b-4ef6-8bed-189d1f8ff16b","position":77.0,"name":""}
+
+21:50:41.652 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"9849eadc-c8b6-4afd-8662-932ea9dd8499","position":676.0,"name":"Title - 694"}
+
+21:50:41.652 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"9c95cf54-47e2-4b85-8ef2-9d5cc672476e","position":-1,"name":"Title - 414"}
+
+21:50:41.652 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"a8fd447d-4243-47cb-846f-82988caad0f0","position":0,"name":"Title - 501"}
+
+21:50:41.652 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":110.0,"name":"Title - 867"}
+
+21:50:42.021 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 366,64
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+21:50:42.033 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+21:50:42.037 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 383,34
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:41.996+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:42.040 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1788ec1b-6968-4feb-9451-18685005df3c","position":825.0,"name":"      "}
+
+21:50:42.040 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 386,55
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:41.996+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:42.041 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 388,00
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:41.996+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:42.044 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 390,96
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:41.996+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:42.051 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 10,68
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:50:42 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:50:42.049+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:50:42.103 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: classpath:kanbanboard/bucket/bucket-create.feature
+21:53:57.971 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:53:58.108 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+21:53:58.108 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was:  
+21:53:58.108 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+21:53:58.108 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+21:53:58.108 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:53:59.181 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":786.0,"name":"Title - 801"}
+
+21:53:59.181 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"799259b6-345e-4641-949d-b5691d677989","position":-1,"name":"Title - 869"}
+
+21:53:59.181 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"10e94c0b-43dd-458f-bab5-26e94a746eb5","position":0,"name":"Title - 909"}
+
+21:53:59.181 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 71
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"db2f5214-3d86-4782-8db1-5e8d7d9a6e77","position":72.0,"name":""}
+
+21:53:59.181 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c9c4e54e-e713-427a-9c17-f30860b1491a","position":632.0,"name":"Title - 411"}
+
+21:53:59.224 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 41,58
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:53:59.214+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:53:59.224 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 41,58
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:53:59.213+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:53:59.224 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 41,58
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:53:59.214+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:53:59.224 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 41,45
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:53:59.215+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:53:59.232 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 50,51
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+21:53:59.233 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - karate.env system property was:  
+21:53:59.238 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"9def7f26-5361-4c38-b8ae-4ba9176f4292","position":596.0,"name":"      "}
+
+21:53:59.246 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 5,93
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:53:59.243+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:53:59.290 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: classpath:kanbanboard/bucket/bucket-create.feature
+21:54:00.104 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.110 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"03e91b60-9efd-4173-b5dd-e5681b6f3f0a","position":426.0,"name":"Title - 592"}
+
+21:54:00.132 [main] DEBUG com.intuit.karate - response time in milliseconds: 21.88
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+21:54:00.138 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.141 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":278.0,"name":"Title - 489"}
+
+21:54:00.147 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.99
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:00.145+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:00.151 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.209 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"8cc71332-1a76-43c0-86f7-8720028a7d84","position":0,"name":"Title - 427"}
+
+21:54:00.214 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.48
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:00.213+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:00.221 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.225 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"349973d7-f81f-4454-b15b-da121a4c5e78","position":-1,"name":"Title - 444"}
+
+21:54:00.231 [main] DEBUG com.intuit.karate - response time in milliseconds: 5.52
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:00 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:00.230+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:00.238 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.241 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"55ef9c2d-838b-4c0c-899d-dcdb08fcc27c","position":237.0,"name":""}
+
+21:54:00.247 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.70
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:00 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:00.245+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:00.251 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:00.255 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"cc43a8e3-cebf-4bde-9dc8-952629942d2c","position":79.0,"name":"      "}
+
+21:54:00.260 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.16
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:00 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:00.258+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:15.252 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:54:22.641 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.142 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 81
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"ca29b6b8-0b70-418c-9a47-fedd07359211","position":2.0,"name":"Title - 577"}
+
+21:54:24.176 [main] DEBUG com.intuit.karate - response time in milliseconds: 33,46
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+21:54:24.187 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.190 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":487.0,"name":"Title - 647"}
+
+21:54:24.195 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,48
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:24.193+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:24.200 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.204 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"08bc6fa7-a780-4142-9cce-390cd210e797","position":0,"name":"Title - 540"}
+
+21:54:24.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,70
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:24.207+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:24.213 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.216 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f74e0cf5-683e-4f19-800f-77b7dbe25c4a","position":-1,"name":"Title - 959"}
+
+21:54:24.221 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,36
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:24.220+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:24.226 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.230 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"ac396feb-bb04-4ad6-9e4c-060c9898e546","position":954.0,"name":""}
+
+21:54:24.235 [main] DEBUG com.intuit.karate - response time in milliseconds: 4,49
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:24.233+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+21:54:24.246 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:54:24.250 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"e4717cd1-b786-4564-ac57-282a1e14db31","position":248.0,"name":"      "}
+
+21:54:24.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,25
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T00:54:24.256+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
