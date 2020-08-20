@@ -1,24 +1,24 @@
-21:54:22.646 karate.env system property was:  
-21:54:24.142 request:
+22:43:22.274 karate.env system property was:  
+22:43:24.249 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 81
+1 > Content-Length: 83
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"ca29b6b8-0b70-418c-9a47-fedd07359211","position":2.0,"name":"Title - 577"}
+{"id":"3a5cc309-0161-45c6-aaff-051e7da5fc03","position":540.0,"name":"Title - 112"}
 
-21:54:24.176 response time in milliseconds: 33,46
+22:43:24.303 response time in milliseconds: 52,74
 1 < 201
 1 < Connection: keep-alive
 1 < Content-Length: 0
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Keep-Alive: timeout=60
 1 < Location: 
 
-21:54:24.187 karate.env system property was:  
-21:54:24.190 request:
+22:43:24.323 karate.env system property was:  
+22:43:24.330 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -26,18 +26,18 @@
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":null,"position":487.0,"name":"Title - 647"}
+{"id":null,"position":346.0,"name":"Title - 751"}
 
-21:54:24.195 response time in milliseconds: 4,48
+22:43:24.338 response time in milliseconds: 6,76
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:54:24.193+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T01:43:24.334+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-21:54:24.200 karate.env system property was:  
-21:54:24.204 request:
+22:43:24.346 karate.env system property was:  
+22:43:24.350 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -45,18 +45,18 @@
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"08bc6fa7-a780-4142-9cce-390cd210e797","position":0,"name":"Title - 540"}
+{"id":"bc541674-2da1-4b81-826b-3e2f2a57e4a4","position":0,"name":"Title - 579"}
 
-21:54:24.208 response time in milliseconds: 3,70
+22:43:24.355 response time in milliseconds: 3,82
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:54:24.207+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T01:43:24.353+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-21:54:24.213 karate.env system property was:  
-21:54:24.216 request:
+22:43:24.367 karate.env system property was:  
+22:43:24.371 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -64,18 +64,18 @@
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"f74e0cf5-683e-4f19-800f-77b7dbe25c4a","position":-1,"name":"Title - 959"}
+{"id":"a77cf601-6479-4913-81a1-3efb836a99c9","position":-1,"name":"Title - 500"}
 
-21:54:24.221 response time in milliseconds: 4,36
+22:43:24.381 response time in milliseconds: 7,40
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:54:24.220+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T01:43:24.375+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-21:54:24.226 karate.env system property was:  
-21:54:24.230 request:
+22:43:24.387 karate.env system property was:  
+22:43:24.391 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -83,18 +83,18 @@
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"ac396feb-bb04-4ad6-9e4c-060c9898e546","position":954.0,"name":""}
+{"id":"cb365912-183c-4d49-a16b-b4fa2a5cf7c6","position":209.0,"name":""}
 
-21:54:24.236 response time in milliseconds: 4,49
+22:43:24.403 response time in milliseconds: 12,05
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:54:24.233+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T01:43:24.401+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-21:54:24.246 karate.env system property was:  
-21:54:24.250 request:
+22:43:24.414 karate.env system property was:  
+22:43:24.417 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -102,21 +102,19 @@
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"e4717cd1-b786-4564-ac57-282a1e14db31","position":248.0,"name":"      "}
+{"id":"27b2e260-78ae-4b5f-8045-421eb8e4795b","position":165.0,"name":"      "}
 
-21:54:24.257 response time in milliseconds: 6,25
+22:43:24.422 response time in milliseconds: 3,96
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:54:24 GMT
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:54:24.256+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T01:43:24.420+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-
-
-atus code was: 400, expected: 404, response time: 5, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.657+00:00","status":400}
-11:13:18.723 karate.env system property was:  
-11:13:18.735 request:
+ttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:58.830 karate.env system property was:  
+22:37:58.837 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -124,14 +122,9 @@ atus code was: 400, expected: 404, response time: 5, url: http://localhost:8080/
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":"1313c2b8-1768-4905-8833-8331584b8fe5","position":557.0,"name":"      "}
+{"id":"c9e1fae0-21d1-4846-9c70-cf9deb62c44e","position":133.0,"name":"      "}
 
-11:13:18.743 response time in milliseconds: 5,82
-1 < 400
-1 < Connection: close
-1 < Content-Type: application/json
-1 < Date: Wed, 19 Aug 2020 14:13:18 GMT
-1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-19T14:13:18.740+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
-
-11:13:18.744 status code was: 400, expected: 404, response time: 6, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.740+00:00","status":400}
+22:38:02.931 org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4094 milliseconds for URL: http://localhost:8080/v1/buckets
+22:38:02.931 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+ url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-08-19T14:13:18.740+00:00","status":400}

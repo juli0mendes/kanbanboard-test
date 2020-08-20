@@ -1579,3 +1579,315 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localh
 1 < Transfer-Encoding: chunked
 {"timestamp":"2020-08-20T00:54:24.256+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
+22:37:36.257 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:38.178 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1c0b96e0-e80e-4885-8392-659a48f6c599","position":131.0,"name":"Title - 566"}
+
+22:37:42.273 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4094 milliseconds for URL: http://localhost:8080/v1/buckets
+22:37:42.274 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:42.380 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:42.386 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":976.0,"name":"Title - 584"}
+
+22:37:46.449 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4063 milliseconds for URL: http://localhost:8080/v1/buckets
+22:37:46.450 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:46.486 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:46.493 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f99253cf-a825-4cfe-b17b-4a5bb3395e90","position":0,"name":"Title - 804"}
+
+22:37:50.605 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4111 milliseconds for URL: http://localhost:8080/v1/buckets
+22:37:50.606 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:50.639 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:50.645 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"6743664f-6332-4f18-99f7-84c21401f320","position":-1,"name":"Title - 116"}
+
+22:37:54.700 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4054 milliseconds for URL: http://localhost:8080/v1/buckets
+22:37:54.700 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:54.736 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:54.740 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"00515441-f0d9-49b7-bd21-beeb61b24003","position":589.0,"name":""}
+
+22:37:58.772 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4032 milliseconds for URL: http://localhost:8080/v1/buckets
+22:37:58.773 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:37:58.829 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:37:58.837 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"c9e1fae0-21d1-4846-9c70-cf9deb62c44e","position":133.0,"name":"      "}
+
+22:38:02.931 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4094 milliseconds for URL: http://localhost:8080/v1/buckets
+22:38:02.931 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+22:41:45.272 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.286 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"1c3d254d-6a06-4bef-a805-2baf1df73d82","position":256.0,"name":"Title - 753"}
+
+22:41:47.618 [main] DEBUG com.intuit.karate - response time in milliseconds: 330,66
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+22:41:47.632 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.636 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":961.0,"name":"Title - 581"}
+
+22:41:47.703 [main] DEBUG com.intuit.karate - response time in milliseconds: 66,02
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:41:47.682+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:41:47.709 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.720 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"7886c95e-e4a0-4169-a646-e2a6fcea7803","position":0,"name":"Title - 57"}
+
+22:41:47.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,06
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:41:47.724+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:41:47.742 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.750 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"5deb4931-1080-4637-a86a-69dc2b4d23b3","position":-1,"name":"Title - 312"}
+
+22:41:47.756 [main] DEBUG com.intuit.karate - response time in milliseconds: 5,45
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:41:47.754+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:41:47.766 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.771 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"be8b970f-6037-4dcd-b795-03c1de89f40e","position":238.0,"name":""}
+
+22:41:47.780 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,99
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:41:47.777+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:41:47.795 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:41:47.805 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"f5fe8463-2404-4a15-9e25-c14cf4f6235d","position":889.0,"name":"      "}
+
+22:41:47.814 [main] DEBUG com.intuit.karate - response time in milliseconds: 8,70
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:41:47 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:41:47.811+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:43:22.270 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.249 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"3a5cc309-0161-45c6-aaff-051e7da5fc03","position":540.0,"name":"Title - 112"}
+
+22:43:24.303 [main] DEBUG com.intuit.karate - response time in milliseconds: 52,74
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+22:43:24.322 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.330 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":null,"position":346.0,"name":"Title - 751"}
+
+22:43:24.337 [main] DEBUG com.intuit.karate - response time in milliseconds: 6,76
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:43:24.334+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:43:24.346 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.350 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 79
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"bc541674-2da1-4b81-826b-3e2f2a57e4a4","position":0,"name":"Title - 579"}
+
+22:43:24.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,82
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:43:24.353+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:43:24.367 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.371 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 80
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"a77cf601-6479-4913-81a1-3efb836a99c9","position":-1,"name":"Title - 500"}
+
+22:43:24.381 [main] DEBUG com.intuit.karate - response time in milliseconds: 7,40
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:43:24.375+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:43:24.387 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.390 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"cb365912-183c-4d49-a16b-b4fa2a5cf7c6","position":209.0,"name":""}
+
+22:43:24.403 [main] DEBUG com.intuit.karate - response time in milliseconds: 12,05
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:43:24.401+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+22:43:24.413 [main] INFO  com.intuit.karate - karate.env system property was:  
+22:43:24.417 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
+{"id":"27b2e260-78ae-4b5f-8045-421eb8e4795b","position":165.0,"name":"      "}
+
+22:43:24.422 [main] DEBUG com.intuit.karate - response time in milliseconds: 3,96
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 20 Aug 2020 01:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-08-20T01:43:24.420+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
