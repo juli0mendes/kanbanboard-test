@@ -4,11 +4,14 @@ Feature: Bucket create endpoints
     * url 'http://localhost:8080/v1/buckets'
     * def generate = Java.type('kanbanboard.TestDataGenerator')
 
-  Scenario: Create a Bucket with valid data
+  Scenario: Must create a Bucket with valid field
+
+    * def uuid =  generate.uuid()
+
     Given request
     """
     {
-      "id": '#(generate.uuid())',
+      "id": '#(uuid)',
       "position": '#(generate.faker().number().numberBetween(1, 10000))',
       "name": '#(generate.faker().pokemon().name())'
     }
@@ -16,7 +19,7 @@ Feature: Bucket create endpoints
     When method post
     Then status 201
 
-  Scenario Outline: Can't create Bucket with invalid data
+  Scenario Outline: Can't create Bucket with invalid fields
     Given request
     """
     {
