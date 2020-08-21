@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>kanbanboard</td>
-      <td>19 Aug 2020, 21:53</td>
+      <td>20 Aug 2020, 20:44</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">kanbanboard/bucket/bucket-create.feature</td>
-          <td      class="passed"    >36</td>
+          <td      class="passed"    >28</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td >0</td>
-          <td class="total">36</td>
+          <td class="total">30</td>
 
-          <td  class="passed"    >6</td>
-          <td >0</td>
+          <td  class="passed"    >5</td>
+          <td  class="failed"    >1</td>
           <td class="total">6</td>
 
-          <td class="duration" data-value="5062056300">5.062</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="13800098800">13.800</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">kanbanboard/bucket/bucket-create.feature</span>
 
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.012</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>21:53:58.110 karate.env system property was:</pre>
+        <pre>20:44:36.387 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -267,36 +267,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
-
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -334,12 +307,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.008</span>
+  <span class="lead-duration duration">1.120</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Create a Bucket with valid data</span>
 
@@ -350,16 +323,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details ">
+  <div id="element-4" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -369,7 +342,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
+  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -377,7 +350,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.732</span>
+  <span class="lead-duration duration">1.069</span>
 
 </div>
 
@@ -396,9 +369,9 @@ $(document).ready(function() {
       </div>
       <div id="msg-6" class="collapse collapsable-details">
         <pre>{
-  &quot;id&quot;: '#(uuid())',
-  &quot;position&quot;: '#(randomNumber(1000))',
-  &quot;name&quot;: '#(&quot;Title - &quot; + randomNumber(1000))'
+  &quot;id&quot;: '#(generate.uuid())',
+  &quot;position&quot;: '#(generate.randomNumber())',
+  &quot;name&quot;: '#(generate.randomWord)'
 }</pre>
       </div>
     </div>
@@ -414,11 +387,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When failed">
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.275</span>
+  <span class="lead-duration duration">0.050</span>
 
 </div>
 
@@ -427,35 +400,20 @@ $(document).ready(function() {
 
 
 
-
-
-
   <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-7">
+          <a>com.intuit.karate.exception.KarateException:</a>
       </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>21:53:59.181 request:
-1 &gt; POST http://localhost:8080/v1/buckets
-1 &gt; Accept-Encoding: gzip,deflate
-1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 83
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Host: localhost:8080
-1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:&quot;c9c4e54e-e713-427a-9c17-f30860b1491a&quot;,&quot;position&quot;:632.0,&quot;name&quot;:&quot;Title - 411&quot;}
-
-21:53:59.232 response time in milliseconds: 50,51
-1 &lt; 201
-1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 0
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
-1 &lt; Keep-Alive: timeout=60
-1 &lt; Location:</pre>
+      <div id="msg-7" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess</pre>
       </div>
     </div>
   </div>
+
+
+
+
 
 
 
@@ -467,7 +425,7 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">status 201</span>
 
@@ -509,7 +467,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.012</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
@@ -570,7 +528,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>21:53:58.110 karate.env system property was:</pre>
+        <pre>20:44:36.387 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -587,36 +545,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
-
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -654,7 +585,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.001</span>
+  <span class="lead-duration duration">2.749</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -697,7 +628,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.027</span>
+  <span class="lead-duration duration">1.516</span>
 
 </div>
 
@@ -717,8 +648,8 @@ $(document).ready(function() {
       <div id="msg-13" class="collapse collapsable-details">
         <pre>{
   &quot;id&quot;: null,
-  &quot;position&quot;: #(randomNumber(1000)),
-  &quot;name&quot;: #(&quot;Title - &quot; + randomNumber(1000))
+  &quot;position&quot;: #(generate.randomNumber()),
+  &quot;name&quot;: #(generate.randomWord())
 }</pre>
       </div>
     </div>
@@ -738,7 +669,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.973</span>
+  <span class="lead-duration duration">1.233</span>
 
 </div>
 
@@ -756,23 +687,23 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-14" class="collapse collapsable-details">
-        <pre>21:53:59.181 request:
+        <pre>20:44:39.226 request:
 1 &gt; POST http://localhost:8080/v1/buckets
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 49
+1 &gt; Content-Length: 54
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: localhost:8080
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:null,&quot;position&quot;:786.0,&quot;name&quot;:&quot;Title - 801&quot;}
+{&quot;id&quot;:null,&quot;position&quot;:27090,&quot;name&quot;:&quot;ea-1597967078037&quot;}
 
-21:53:59.224 response time in milliseconds: 41,58
+20:44:39.269 response time in milliseconds: 41,12
 1 &lt; 400
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 &lt; Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 &lt; Transfer-Encoding: chunked
-{&quot;timestamp&quot;:&quot;2020-08-20T00:53:59.213+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
+{&quot;timestamp&quot;:&quot;2020-08-20T23:44:39.256+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
       </div>
     </div>
   </div>
@@ -829,7 +760,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.012</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
@@ -890,7 +821,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-17" class="collapse collapsable-details">
-        <pre>21:53:58.110 karate.env system property was:</pre>
+        <pre>20:44:36.387 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -907,36 +838,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
-
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -974,7 +878,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.001</span>
+  <span class="lead-duration duration">2.750</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
@@ -1017,7 +921,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.728</span>
+  <span class="lead-duration duration">2.509</span>
 
 </div>
 
@@ -1036,9 +940,9 @@ $(document).ready(function() {
       </div>
       <div id="msg-20" class="collapse collapsable-details">
         <pre>{
-  &quot;id&quot;: #(uuid()),
+  &quot;id&quot;: #(generate.uuid()),
   &quot;position&quot;: 0,
-  &quot;name&quot;: #(&quot;Title - &quot; + randomNumber(1000))
+  &quot;name&quot;: #(generate.randomWord())
 }</pre>
       </div>
     </div>
@@ -1058,7 +962,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.272</span>
+  <span class="lead-duration duration">0.240</span>
 
 </div>
 
@@ -1076,23 +980,23 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-21" class="collapse collapsable-details">
-        <pre>21:53:59.181 request:
+        <pre>20:44:39.226 request:
 1 &gt; POST http://localhost:8080/v1/buckets
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 79
+1 &gt; Content-Length: 85
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: localhost:8080
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:&quot;10e94c0b-43dd-458f-bab5-26e94a746eb5&quot;,&quot;position&quot;:0,&quot;name&quot;:&quot;Title - 909&quot;}
+{&quot;id&quot;:&quot;c8d98d79-16eb-4b0c-91b7-65e53ea6a444&quot;,&quot;position&quot;:0,&quot;name&quot;:&quot;sed-1597967079029&quot;}
 
-21:53:59.224 response time in milliseconds: 41,58
+20:44:39.269 response time in milliseconds: 41,21
 1 &lt; 400
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 &lt; Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 &lt; Transfer-Encoding: chunked
-{&quot;timestamp&quot;:&quot;2020-08-20T00:53:59.214+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
+{&quot;timestamp&quot;:&quot;2020-08-20T23:44:39.256+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
       </div>
     </div>
   </div>
@@ -1149,7 +1053,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.006</span>
+  <span class="lead-duration duration">0.012</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
@@ -1210,7 +1114,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-24" class="collapse collapsable-details">
-        <pre>21:53:58.110 karate.env system property was:</pre>
+        <pre>20:44:36.387 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -1227,36 +1131,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
-
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -1294,7 +1171,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.001</span>
+  <span class="lead-duration duration">2.749</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
@@ -1337,7 +1214,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.726</span>
+  <span class="lead-duration duration">2.477</span>
 
 </div>
 
@@ -1356,9 +1233,9 @@ $(document).ready(function() {
       </div>
       <div id="msg-27" class="collapse collapsable-details">
         <pre>{
-  &quot;id&quot;: #(uuid()),
+  &quot;id&quot;: #(generate.uuid()),
   &quot;position&quot;: -1,
-  &quot;name&quot;: #(&quot;Title - &quot; + randomNumber(1000))
+  &quot;name&quot;: #(generate.randomWord())
 }</pre>
       </div>
     </div>
@@ -1378,7 +1255,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.275</span>
+  <span class="lead-duration duration">0.271</span>
 
 </div>
 
@@ -1396,23 +1273,23 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-28" class="collapse collapsable-details">
-        <pre>21:53:59.181 request:
+        <pre>20:44:39.226 request:
 1 &gt; POST http://localhost:8080/v1/buckets
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 80
+1 &gt; Content-Length: 90
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: localhost:8080
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:&quot;799259b6-345e-4641-949d-b5691d677989&quot;,&quot;position&quot;:-1,&quot;name&quot;:&quot;Title - 869&quot;}
+{&quot;id&quot;:&quot;5b574544-4395-40f2-8a0a-d7c9c1cde680&quot;,&quot;position&quot;:-1,&quot;name&quot;:&quot;eveniet-1597967078998&quot;}
 
-21:53:59.224 response time in milliseconds: 41,58
+20:44:39.269 response time in milliseconds: 41,12
 1 &lt; 400
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 &lt; Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 &lt; Transfer-Encoding: chunked
-{&quot;timestamp&quot;:&quot;2020-08-20T00:53:59.214+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
+{&quot;timestamp&quot;:&quot;2020-08-20T23:44:39.261+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
       </div>
     </div>
   </div>
@@ -1469,7 +1346,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.012</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
@@ -1530,7 +1407,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-31" class="collapse collapsable-details">
-        <pre>21:53:58.110 karate.env system property was:</pre>
+        <pre>20:44:36.387 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -1547,36 +1424,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
-
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -1614,7 +1464,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.001</span>
+  <span class="lead-duration duration">2.749</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-32">
@@ -1657,7 +1507,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.726</span>
+  <span class="lead-duration duration">1.044</span>
 
 </div>
 
@@ -1676,8 +1526,8 @@ $(document).ready(function() {
       </div>
       <div id="msg-34" class="collapse collapsable-details">
         <pre>{
-  &quot;id&quot;: #(uuid()),
-  &quot;position&quot;: #(randomNumber(1000)),
+  &quot;id&quot;: #(generate.uuid()),
+  &quot;position&quot;: #(generate.randomNumber()),
   &quot;name&quot;: ''
 }</pre>
       </div>
@@ -1698,7 +1548,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.275</span>
+  <span class="lead-duration duration">1.704</span>
 
 </div>
 
@@ -1716,23 +1566,23 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-35" class="collapse collapsable-details">
-        <pre>21:53:59.181 request:
+        <pre>20:44:39.226 request:
 1 &gt; POST http://localhost:8080/v1/buckets
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 71
+1 &gt; Content-Length: 72
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: localhost:8080
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:&quot;db2f5214-3d86-4782-8db1-5e8d7d9a6e77&quot;,&quot;position&quot;:72.0,&quot;name&quot;:&quot;&quot;}
+{&quot;id&quot;:&quot;512c544a-7255-4b0e-95da-f1d7696ef375&quot;,&quot;position&quot;:20464,&quot;name&quot;:&quot;&quot;}
 
-21:53:59.224 response time in milliseconds: 41,45
+20:44:39.269 response time in milliseconds: 41,01
 1 &lt; 400
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 &lt; Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 &lt; Transfer-Encoding: chunked
-{&quot;timestamp&quot;:&quot;2020-08-20T00:53:59.215+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
+{&quot;timestamp&quot;:&quot;2020-08-20T23:44:39.256+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
       </div>
     </div>
   </div>
@@ -1850,7 +1700,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-38" class="collapse collapsable-details">
-        <pre>21:53:59.233 karate.env system property was:</pre>
+        <pre>20:44:37.650 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -1867,34 +1717,7 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">def uuid = function() { return java.util.UUID.randomUUID() + ''}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def randomNumber = function(max) { return Math.floor(Math.random() * max) }</span>
+  <span class="name">def generate = Java.type('kanbanboard.TestDataGenerator')</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -1934,7 +1757,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.011</span>
+  <span class="lead-duration duration">1.618</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-39">
@@ -1977,7 +1800,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">request</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1996,8 +1819,8 @@ $(document).ready(function() {
       </div>
       <div id="msg-41" class="collapse collapsable-details">
         <pre>{
-  &quot;id&quot;: #(uuid()),
-  &quot;position&quot;: #(randomNumber(1000)),
+  &quot;id&quot;: #(generate.uuid()),
+  &quot;position&quot;: #(generate.randomNumber()),
   &quot;name&quot;: '      '
 }</pre>
       </div>
@@ -2018,7 +1841,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.009</span>
+  <span class="lead-duration duration">1.617</span>
 
 </div>
 
@@ -2036,7 +1859,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-42" class="collapse collapsable-details">
-        <pre>21:53:59.239 request:
+        <pre>20:44:39.226 request:
 1 &gt; POST http://localhost:8080/v1/buckets
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -2044,15 +1867,15 @@ $(document).ready(function() {
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: localhost:8080
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{&quot;id&quot;:&quot;9def7f26-5361-4c38-b8ae-4ba9176f4292&quot;,&quot;position&quot;:596.0,&quot;name&quot;:&quot;      &quot;}
+{&quot;id&quot;:&quot;9c6ec82b-e65c-4a77-be32-82f82a78ff72&quot;,&quot;position&quot;:20243,&quot;name&quot;:&quot;      &quot;}
 
-21:53:59.246 response time in milliseconds: 5,93
+20:44:39.269 response time in milliseconds: 41,15
 1 &lt; 400
 1 &lt; Connection: close
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 &lt; Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 &lt; Transfer-Encoding: chunked
-{&quot;timestamp&quot;:&quot;2020-08-20T00:53:59.243+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
+{&quot;timestamp&quot;:&quot;2020-08-20T23:44:39.261+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/v1/buckets&quot;}</pre>
       </div>
     </div>
   </div>

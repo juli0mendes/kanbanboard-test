@@ -1,21 +1,20 @@
-21:53:58.110 karate.env system property was:  
-21:53:59.181 request:
+20:44:36.387 karate.env system property was:  
+20:44:39.226 request:
 1 > POST http://localhost:8080/v1/buckets
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 49
+1 > Content-Length: 54
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: localhost:8080
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_191)
-{"id":null,"position":786.0,"name":"Title - 801"}
+{"id":null,"position":27090,"name":"ea-1597967078037"}
 
-21:53:59.224 response time in milliseconds: 41,58
+20:44:39.269 response time in milliseconds: 41,12
 1 < 400
 1 < Connection: close
 1 < Content-Type: application/json
-1 < Date: Thu, 20 Aug 2020 00:53:59 GMT
+1 < Date: Thu, 20 Aug 2020 23:44:39 GMT
 1 < Transfer-Encoding: chunked
-{"timestamp":"2020-08-20T00:53:59.213+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+{"timestamp":"2020-08-20T23:44:39.256+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
 
-
-tp.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+onn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect

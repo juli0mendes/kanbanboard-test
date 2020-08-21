@@ -1,138 +1,147 @@
-<testsuite failures="0" name="kanbanboard/bucket/bucket-create.feature" skipped="0" tests="6" time="5.062056">
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Create a Bucket with valid data" time="1.015575">
-    <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+<testsuite failures="1" name="kanbanboard/bucket/bucket-create.feature" skipped="0" tests="6" time="13.800099">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Create a Bucket with valid data" time="1.132779">
+    <failure message="bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess">* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed</system-out>
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped</failure>
   </testcase>
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008551">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="2.762164">
     <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed</system-out>
   </testcase>
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008597">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="2.762231">
     <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed</system-out>
   </testcase>
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008338">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="2.761901">
     <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
-Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 400 ........................................................... passed
-* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed</system-out>
   </testcase>
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.008884">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="2.761858">
     <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
-Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 400 ........................................................... passed
-* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed</system-out>
   </testcase>
-  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="0.012111">
+  <testcase classname="kanbanboard.bucket.bucket-create" name="Can't create Bucket with invalid data" time="1.619167">
     <system-out>* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 201 ........................................................... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess&#13;
+	at ✽.When method post (bucket-create.feature:16)&#13;
+
+Then status 201 ........................................................... skipped
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
-Given request ............................................................. passed
-When method post .......................................................... passed
-Then status 400 ........................................................... passed
-* url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed
 * url 'http://localhost:8080/v1/buckets' .................................. passed
-* def uuid = function() { return java.util.UUID.randomUUID() + ''} ........ passed
-* def randomNumber = function(max) { return Math.floor(Math.random() * max) } . passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
+Given request ............................................................. passed
+When method post .......................................................... passed
+Then status 400 ........................................................... passed
+* url 'http://localhost:8080/v1/buckets' .................................. passed
+* def generate = Java.type('kanbanboard.TestDataGenerator') ............... passed
 Given request ............................................................. passed
 When method post .......................................................... passed
 Then status 400 ........................................................... passed</system-out>

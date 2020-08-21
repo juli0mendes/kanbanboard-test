@@ -1,1 +1,1 @@
-{"features":0,"ignored":0,"efficiency":0.0,"failures":null,"totalTime":0.0,"threads":1,"scenarios":0,"failed":0,"passed":0,"version":"0.9.5","elapsedTime":13.0}
+{"features":1,"ignored":0,"efficiency":0.6917342756892232,"failures":{"kanbanboard.bucket.bucket-create":"bucket-create.feature:16 - tried to access class jdk.internal.dynalink.beans.SimpleDynamicMethod from class jdk.internal.dynalink.beans.SimpleDynamicMethodAccAccess"},"totalTime":13800.098800000002,"threads":5,"scenarios":6,"failed":1,"passed":5,"version":"0.9.5","elapsedTime":3990.0}
