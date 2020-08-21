@@ -4,20 +4,24 @@ Feature: Bucket create endpoints
     * url 'http://localhost:8080/v1/buckets'
     * def generate = Java.type('kanbanboard.TestDataGenerator')
 
-  Scenario: Must create a Bucket with valid field
+  Scenario: Must create only once = Bucket with same valid field
 
-    * def uuid =  generate.uuid()
-
-    Given request
+    * def payload =
     """
     {
-      "id": '#(uuid)',
+      "id": '#(generate.uuid())',
       "position": '#(generate.faker().number().numberBetween(1, 10000))',
       "name": '#(generate.faker().pokemon().name())'
     }
     """
+
+    Given request payload
     When method post
     Then status 201
+
+    Given request payload
+    When method post
+    Then status 400
 
   Scenario Outline: Can't create Bucket with invalid fields
     Given request
