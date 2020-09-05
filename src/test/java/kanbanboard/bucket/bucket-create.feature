@@ -1,4 +1,7 @@
-Feature: Bucket create endpoints
+Feature: Endpoint for Bucket creation
+  In order to create a new Bucket
+  As a Frontend application
+  I need a REST endpoint to send Bucket data as JSON
 
   Background:
     * url 'http://localhost:8080/v1/buckets'
@@ -25,6 +28,7 @@ Feature: Bucket create endpoints
     Given request payload
     When method post
     Then status 400
+    And match response contains 'Invalid duplicated data - id - position'
 
   Scenario Outline: Can't create Bucket with invalid fields
     Given request
