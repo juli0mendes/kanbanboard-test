@@ -6,10 +6,12 @@ Feature: Bucket create endpoints
 
   Scenario: Must create only once = Bucket with same valid field
 
+    * def uuid = generate.uuid()
+    * def expectedLocation = '/v1/buckets/' + uuid
     * def payload =
     """
     {
-      "id": '#(generate.uuid())',
+      "id": '#(uuid)',
       "position": '#(generate.randomNumber())',
       "name": '#(generate.randomName())'
     }
@@ -18,6 +20,7 @@ Feature: Bucket create endpoints
     Given request payload
     When method post
     Then status 201
+    And match responseHeaders['Location'][0] == expectedLocation
 
     Given request payload
     When method post
