@@ -15,6 +15,14 @@ public class TestDataGenerator {
         return randomUUID().toString();
     }
 
+    public static String randomName() {
+        return faker().pokemon().name();
+    }
+
+    public static int randomNumber() {
+        return faker().number().numberBetween(1, 1000);
+    }
+
     public static Faker faker() {
         return TestDataGenerator.faker(TestDataGenerator.defaultLocale);
     }

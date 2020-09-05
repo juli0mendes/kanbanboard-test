@@ -10,8 +10,8 @@ Feature: Bucket create endpoints
     """
     {
       "id": '#(generate.uuid())',
-      "position": '#(generate.faker().number().numberBetween(1, 10000))',
-      "name": '#(generate.faker().pokemon().name())'
+      "position": '#(generate.randomNumber())',
+      "name": '#(generate.randomName())'
     }
     """
 
@@ -35,11 +35,11 @@ Feature: Bucket create endpoints
     When method post
     Then status 400
     Examples:
-      | id                 | position                                             | name
-      | null               | #(generate.faker().number().numberBetween(1, 10000)) | #(generate.faker().lorem().word()
-      | ''                 | #(generate.faker().number().numberBetween(1, 10000)) | #(generate.faker().lorem().word()
-      | #(generate.uuid()) | 0                                                    | #(generate.faker().lorem().word()
-      | #(generate.uuid()) | -1                                                   | #(generate.faker().lorem().word()
-      | #(generate.uuid()) | #(generate.faker().number().numberBetween(1, 10000)) | null
-      | #(generate.uuid()) | #(generate.faker().number().numberBetween(1, 10000)) | ''
-      | #(generate.uuid()) | #(generate.faker().number().numberBetween(1, 10000)) | '      '
+      | id                 | position                   | name
+      | null               | #(generate.randomNumber()) | #(generate.randomName())
+      | ''                 | #(generate.randomNumber()) | #(generate.randomName())
+      | #(generate.uuid()) | 0                          | #(generate.randomName())
+      | #(generate.uuid()) | -1                         | #(generate.randomName())
+      | #(generate.uuid()) | #(generate.randomNumber()) | null
+      | #(generate.uuid()) | #(generate.randomNumber()) | ''
+      | #(generate.uuid()) | #(generate.randomNumber()) | '      '
