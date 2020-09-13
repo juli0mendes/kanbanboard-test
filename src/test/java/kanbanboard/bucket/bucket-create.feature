@@ -10,13 +10,14 @@ Feature: Endpoint for Bucket creation
   Scenario: Must create only once = Bucket with same valid field
 
     * def uuid = generate.uuid()
+    * def position = generate.randomNumber()
     * def expectedLocation = '/v1/buckets/' + uuid
     * def payload =
     """
     {
-      "id": '#(uuid)',
-      "position": '#(generate.randomNumber())',
-      "name": '#(generate.randomName())'
+      id: '#(uuid)',
+      position: '#(position)',
+      name: '#(generate.randomName())'
     }
     """
 
@@ -28,9 +29,9 @@ Feature: Endpoint for Bucket creation
     Given request payload
     When method post
     Then status 400
-    And match response contains 'Invalid duplicated data - id - position'
+    And match response == { id: '#(uuid)', position: '#(position)' }
 
-  Scenario Outline: Can't create Bucket with invalid fields
+  Scenario Outline: Invalid fields must return error code 400
     Given request
     """
     {
@@ -41,12 +42,11 @@ Feature: Endpoint for Bucket creation
     """
     When method post
     Then status 400
+    And match response == <expected>
+
     Examples:
-      | id                 | position                   | name
-      | null               | #(generate.randomNumber()) | #(generate.randomName())
-      | ''                 | #(generate.randomNumber()) | #(generate.randomName())
-      | #(generate.uuid()) | 0                          | #(generate.randomName())
-      | #(generate.uuid()) | -1                         | #(generate.randomName())
-      | #(generate.uuid()) | #(generate.randomNumber()) | null
-      | #(generate.uuid()) | #(generate.randomNumber()) | ''
-      | #(generate.uuid()) | #(generate.randomNumber()) | '      '
+      | id                 | position                   | name                     | expected
+      | null               | 0                          | ''                       | { name: 'não deve estar em branco', id: 'não deve ser nulo', position: 'deve ser maior que 0' }
+      | #(generate.uuid()) | -1                         | #(generate.randomName()) | { position: 'deve ser maior que 0' }
+      | #(generate.uuid()) | #(generate.randomNumber()) | null                     | { name: 'não deve estar em branco' }x
+      | #(generate.uuid()) | #(generate.randomNumber()) | '      '                 | { name: 'não deve estar em branco' }x
