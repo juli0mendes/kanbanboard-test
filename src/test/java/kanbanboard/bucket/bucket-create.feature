@@ -29,7 +29,7 @@ Feature: Endpoint for Bucket creation
     Given request payload
     When method post
     Then status 400
-    And match response == { id: '#(uuid)', position: '#(position)' }
+    And match response == { message: 'Invalid duplicated data', id: '#(uuid)', position: '#(position)' }
 
   Scenario Outline: Invalid fields must return error code 400
     Given request
