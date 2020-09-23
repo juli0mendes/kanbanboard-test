@@ -27,13 +27,11 @@ Feature: Endpoint for list all Buckets
 
     When method get
     Then status 200
-    And match response ==
+    And match response contains
     """
-    [
-      {
-        id: '#(uuid)',
-        position: '#(position)',
-        name: '#(name)'
-      }
-    ]
+    {
+      id: '#(uuid)',
+      position: '#(position)',
+      name: '#(name)'
+    }
     """
