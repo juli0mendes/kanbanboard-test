@@ -26,11 +26,6 @@ Feature: Endpoint for Bucket creation
     Then status 201
     And match responseHeaders['Location'][0] == expectedLocation
 
-    Given request payload
-    When method post
-    Then status 400
-    And match response == { message: 'Invalid duplicated data', id: '#(uuid)', position: '#(position)' }
-
   Scenario Outline: Invalid fields must return error code 400
     Given request
     """
@@ -46,7 +41,7 @@ Feature: Endpoint for Bucket creation
 
     Examples:
       | id                 | position                   | name                     | expected
-      | null               | 0                          | ''                       | { name: 'não deve estar em branco', id: 'não deve ser nulo', position: 'deve ser maior que 0' }
-      | #(generate.uuid()) | -1                         | #(generate.randomName()) | { position: 'deve ser maior que 0' }
-      | #(generate.uuid()) | #(generate.randomNumber()) | null                     | { name: 'não deve estar em branco' }x
-      | #(generate.uuid()) | #(generate.randomNumber()) | '      '                 | { name: 'não deve estar em branco' }x
+      | null               | 0                          | ''                       | {"message":"Invalid field","errors":{"name":"não deve estar em branco","id":"não deve ser nulo","position":"deve ser maior que 0"}}
+      | #(generate.uuid()) | -1                         | #(generate.randomName()) | {"message":"Invalid field","errors":{"position":"deve ser maior que 0"}}
+      | #(generate.uuid()) | #(generate.randomNumber()) | null                     | {"message":"Invalid field","errors":{"name":"não deve estar em branco"}}
+      | #(generate.uuid()) | #(generate.randomNumber()) | '      '                 | {"message":"Invalid field","errors":{"name":"não deve estar em branco"}}
